@@ -98,7 +98,7 @@ public class christian extends javax.swing.JFrame {
                 .addComponent(jLabel5)
                 .addGap(48, 48, 48)
                 .addComponent(jButton1)
-                .addContainerGap(121, Short.MAX_VALUE))
+                .addContainerGap(63, Short.MAX_VALUE))
         );
 
         pack();
