@@ -162,8 +162,9 @@ public class Yajaira extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        Juan s=new Juan();
+        christian s=new christian();
         s.setVisible(true);
+         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
 
     /**
