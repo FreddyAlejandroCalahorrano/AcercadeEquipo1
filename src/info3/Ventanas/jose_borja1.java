@@ -38,12 +38,13 @@ public class jose_borja1 extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jLabel6 = new javax.swing.JLabel();
+        jLabel9 = new javax.swing.JLabel();
         jLabel2 = new javax.swing.JLabel();
 
         setDefaultCloseOperation(javax.swing.WindowConstants.EXIT_ON_CLOSE);
         getContentPane().setLayout(new org.netbeans.lib.awtextra.AbsoluteLayout());
 
-        jButton1.setText("regresar");
+        jButton1.setText("inicio");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -53,7 +54,7 @@ public class jose_borja1 extends javax.swing.JFrame {
 
         jTextField3.setEditable(false);
         jTextField3.setText("me encanta jugar futubol en todo lado a pesar que no soy un buen jugador me gusta ir mejorando ,cada dia y superrar mis miedos");
-        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 270, 640, -1));
+        getContentPane().add(jTextField3, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 340, 640, -1));
 
         jTextField1.setEditable(false);
         jTextField1.setText("en mis tiempos libre me gusta dibujaranimales  para relajarme");
@@ -86,7 +87,7 @@ public class jose_borja1 extends javax.swing.JFrame {
         getContentPane().add(jLabel7, new org.netbeans.lib.awtextra.AbsoluteConstraints(600, 70, 160, 60));
 
         jLabel8.setIcon(new javax.swing.ImageIcon(getClass().getResource("/imagenes/fut1.jpg"))); // NOI18N
-        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(690, 210, 200, 120));
+        getContentPane().add(jLabel8, new org.netbeans.lib.awtextra.AbsoluteConstraints(660, 270, 200, 120));
 
         jLabel4.setFont(new java.awt.Font("Times New Roman", 3, 18)); // NOI18N
         jLabel4.setForeground(new java.awt.Color(240, 240, 240));
@@ -102,6 +103,10 @@ public class jose_borja1 extends javax.swing.JFrame {
         jLabel6.setForeground(new java.awt.Color(240, 240, 240));
         jLabel6.setText("HOBBIES");
         getContentPane().add(jLabel6, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 50, -1, -1));
+
+        jLabel9.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/draw.png"))); // NOI18N
+        jLabel9.setText("jLabel9");
+        getContentPane().add(jLabel9, new org.netbeans.lib.awtextra.AbsoluteConstraints(440, 150, 180, -1));
 
         jLabel2.setIcon(new javax.swing.ImageIcon(getClass().getResource("/Imagenes/fondos.jpg"))); // NOI18N
         jLabel2.setText("jLabel2");
@@ -170,6 +175,7 @@ public class jose_borja1 extends javax.swing.JFrame {
     private javax.swing.JLabel jLabel6;
     private javax.swing.JLabel jLabel7;
     private javax.swing.JLabel jLabel8;
+    private javax.swing.JLabel jLabel9;
     private javax.swing.JTextField jTextField1;
     private javax.swing.JTextField jTextField2;
     private javax.swing.JTextField jTextField3;

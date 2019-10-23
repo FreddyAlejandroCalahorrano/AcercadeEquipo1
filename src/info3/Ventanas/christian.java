@@ -106,7 +106,7 @@ public class christian extends javax.swing.JFrame {
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
 
-jose_borja l = new jose_borja ();
+miguelJurado l = new miguelJurado ();
 l.setVisible(true);
  this.dispose();
         // TODO add your handling code here:

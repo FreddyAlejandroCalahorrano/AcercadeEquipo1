@@ -31,7 +31,6 @@ public class jose_borja extends javax.swing.JFrame {
         jLabel4 = new javax.swing.JLabel();
         jLabel5 = new javax.swing.JLabel();
         jTextArea1 = new javax.swing.JTextArea();
-        jButton1 = new javax.swing.JButton();
         jButton2 = new javax.swing.JButton();
         jScrollPane1 = new javax.swing.JScrollPane();
         jTextArea2 = new javax.swing.JTextArea();
@@ -63,14 +62,6 @@ public class jose_borja extends javax.swing.JFrame {
         jTextArea1.setRows(5);
         jTextArea1.setText("Describirme de una forma facil se podria decir una persona soñadora que piensa en un futuro prospero mediante el \nesfuerzo, aunque podre ser media vaga o timida tendre muchos defectos pero no sera un impedimento para poder \nsuperar cada defecto mediante trabajo duro, dedicacion ");
         getContentPane().add(jTextArea1, new org.netbeans.lib.awtextra.AbsoluteConstraints(10, 230, 910, 70));
-
-        jButton1.setText("regresar");
-        jButton1.addActionListener(new java.awt.event.ActionListener() {
-            public void actionPerformed(java.awt.event.ActionEvent evt) {
-                jButton1ActionPerformed(evt);
-            }
-        });
-        getContentPane().add(jButton1, new org.netbeans.lib.awtextra.AbsoluteConstraints(700, 480, -1, -1));
 
         jButton2.setText("siguiente");
         jButton2.addActionListener(new java.awt.event.ActionListener() {
@@ -108,13 +99,6 @@ public class jose_borja extends javax.swing.JFrame {
 
         pack();
     }// </editor-fold>//GEN-END:initComponents
-
-    private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        // TODO add your handling code here:
-        inicio1 bor =new inicio1();
-        bor.setVisible(true);
-        this.dispose();
-    }//GEN-LAST:event_jButton1ActionPerformed
 
     private void jButton2ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton2ActionPerformed
         // TODO add your handling code here:
@@ -160,7 +144,6 @@ public class jose_borja extends javax.swing.JFrame {
     }
 
     // Variables declaration - do not modify//GEN-BEGIN:variables
-    private javax.swing.JButton jButton1;
     private javax.swing.JButton jButton2;
     private javax.swing.JLabel jLabel1;
     private javax.swing.JLabel jLabel2;

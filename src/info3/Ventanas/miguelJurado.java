@@ -326,7 +326,7 @@ public class miguelJurado extends javax.swing.JFrame {
         jPanel7.setBorder(new javax.swing.border.SoftBevelBorder(javax.swing.border.BevelBorder.RAISED));
         jPanel7.setForeground(new java.awt.Color(255, 255, 255));
 
-        jButton1.setText("REGRESAR");
+        jButton1.setText("SIGUIENTE");
         jButton1.addActionListener(new java.awt.event.ActionListener() {
             public void actionPerformed(java.awt.event.ActionEvent evt) {
                 jButton1ActionPerformed(evt);
@@ -452,7 +452,7 @@ public class miguelJurado extends javax.swing.JFrame {
     }// </editor-fold>//GEN-END:initComponents
 
     private void jButton1ActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_jButton1ActionPerformed
-        christian bor =new christian();
+        jose_borja bor =new jose_borja();
         bor.setVisible(true);
         this.dispose();
     }//GEN-LAST:event_jButton1ActionPerformed
